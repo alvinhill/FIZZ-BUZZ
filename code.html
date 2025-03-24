@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en" class="h-100">
+
+<head>
+    <title>App Name: A coding project</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <link href="css/site.css" rel="stylesheet">
+        <link href="css/prism.css" rel="stylesheet">
+        <link rel="shortcut icon"  href="./img/ICON1.ico">
+</head>
+
+<body class="d-flex flex-column h-100">
+<!--  NAV SECTION  -->
+<nav class="navbar navbar-expand-md navbar-dark fixed-top">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="img/ICON1.ico" class="d-inline-block align-text-top" width="20" height="20">    APP NAME</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+            aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                <li class="nav-item">
+                    <a class="nav-link " href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="app.html">The App</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="code.html">The Code</a>
+                </li>
+             
+                <li class="nav-item">
+                    <a class="nav-link" href="code.html">Git Repo</a><!--link to github-->
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" target="_blank">About</a> <!--will link to portfolio-->
+                </li>
+
+
+
+            </ul>
+        </div>
+    </div>
+</nav>
+<!--  MAIN SECTION  -->
+<main class="flex-shrink-0">
+    <div class="container py-4 px-5 mt-5">
+        <h2 class="border-1 border-bottom border-dark">The Code</h2>
+<div class="row row-cols-1 row-cols-lg-2">
+
+<div class="col-lg-8"><!--CODE-->
+
+<pre class="line-numbers"><code class="language-javascript">
+    // call hello world
+    function HelloWorld(){
+        alert("hello world");
+    }
+
+
+
+</code></pre>
+
+</div>
+<div class="col-lg-4"><!--DESCRIPTION-->
+<p>The code is structured as just one function.</p>
+<h5>Hello World</h5>
+<p>This is a function that displays an alert with "hellow world"</p>
+
+</div>
+
+
+</div>
+        
+    </div>
+
+</main>
+<!--  FOOTER SECTION  -->
+<footer class="footer mt-auto py-3 sticky-footer">
+    <div class="container-fluid">
+        <div class="row row-cols-1 row-cols-lg-3 gy-2">
+
+
+<div class="col order-last order-lg-first text-light">
+<div><span class="text-light">&copy;2024</span>  Alvin Hill | alvinrainhill@gmail.com </div> 
+</div>
+<div class="col d-flex align-items-center justify-content-start justify-content-lg-center">
+<img src="img/ALVIN_HILL_LOGO.png" alt="Alvin Hill logo" height="24">
+</div>
+<div class="col d-flex align-items-center justify-content-lg-end">
+<div class="row">
+
+<div class="col social"><a href="#" target="_blank"><i class="fa-brands fa-twitter fa-2x"></i></a></div>
+<div class="col social"><a href="#" target="_blank"><i class="fa-brands fa-youtube fa-2x"></i></a></div>
+<div class="col social"><a href="#" target="_blank"><i class="fa-brands fa-linkedin fa-2x "></i></a></div>
+<div class="col social"><a href="#" target="_blank"><i class="fa-brands fa-facebook fa-2x"></i></a></div>
+
+</div>
+
+</div> 
+    </div>
+</footer>
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous">
+</script>
+
+<script src="js/prism.js"></script>
+
+
+<script>
+Prism.plugins.NormalizeWhitespace.setDefaults({
+    'remove-trailing': true,
+    'remove-indent': true,
+    'left-trim': true,
+    'right-trim': true,
+})
+
+
+</script>
+
+</body>
+</html>
