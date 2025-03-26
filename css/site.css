@@ -1,12 +1,12 @@
 :root{
 --primary-color: #1d5888;
---secondary-color:#ff993b;
---dark-color:#000000;
+--secondary-color:#42a23d;
+--dark-color:hsl(116, 45%, 35%);
 --white-color: #dff3e4;
 }
 body{
+  
     color:var(--dark-color);
-
 }
 
 nav{
