@@ -54,17 +54,16 @@ return returnArray;
 }
 function displayData(fbArray){
     
-// get the table body element from the page
-//I AM CUTTING THIS OUT FOR NOW   **************************
+
 let tableBody =document.getElementById("results");
 // get the template row
 let templateRow = document.getElementById("fbTemplate");
-//I AM CUTTING THIS OUT FOR NOW   **************************
-//document.getElementById("results").innerHTML=(fbArray[29]); // GOOD
+
 
 
 
 for (let x in fbArray){
+
 
     let girlDiv = document.getElementById("results");
 
